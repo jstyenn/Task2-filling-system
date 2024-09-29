@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Filing System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Icons -->
+</head>
+<body>
+    <div class="container">
+        <h1>E-Filing System</h1>
+
+        <div class="upload-section">
+            <h2>Upload Your Document</h2>
+            <div class="upload-box" id="uploadBox">
+                <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                <p>Drag and drop a file or click to select</p>
+                <input type="file" id="fileInput" multiple hidden>
+            </div>
+            <button id="uploadButton">Upload</button>
+        </div>
+
+        <div class="file-list-section">
+            <h2>Uploaded Documents</h2>
+            <ul id="fileList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
